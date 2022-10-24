@@ -21,7 +21,7 @@
 
     두개의 commit 히스토리가 서로 관련이 없기 때문에 merge 할 수 없음을 알림.
     기본적으로 merge는 원격저장소(git)와 로컬저장소(pc) 공통으로 가지고있는 commit 지점이 존재해야함.
-    여기서 <strong>공통된 commit</strong> 지점이 없기때문에 pull 명령이 안먹음.
+    여기서 공통된 commit 지점이 없기때문에 pull 명령이 안먹음.
     두 커밋을 강제병합 
 
             $ git pull origin [@@] --allow-unrelated-histories
