@@ -49,3 +49,22 @@
 
 ![2](./img/3/2.jpg)
 ![3](./img/3/3.jpg)
+
+<br><br><br>
+
+# remote: Support for apssword autentication was removed on ~~~ <br><br> fatal: Autentication failed for '~~~'
+
+![1](./img/4/1.png)
+
+    깃허브에서 personal access token을 사용하도록 바꾸면서 발생하는 오류
+    username, password를 정확하게 입력하더라도 토큰 인증 에러 발생.
+<br>
+    
+    해결 방법은 다음과 같음.
+
+![2](./img/4/1234.png)
+
+    note : 토근에 대한 설명
+    Expiration : 토큰 만료일(기간 설정)
+    일반적으로 repo 부분만 체크하나 
+    필요 시 아 래 항목들 추가 선택 설정가능.
